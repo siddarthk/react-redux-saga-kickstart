@@ -6,8 +6,8 @@ interface Props {
 
 const Header = (props: Props) => {
   return (
-    <div>
-      
+    <div className='header'>
+      Header
     </div>
   )
 }

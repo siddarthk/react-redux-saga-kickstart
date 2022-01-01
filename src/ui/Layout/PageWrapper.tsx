@@ -1,13 +1,14 @@
 import React from 'react'
 
 interface Props {
-  
+  children: any;
 }
 
 const PageWrapper = (props: Props) => {
+  const { children } = props;
   return (
-    <div>
-      
+    <div className='content'>
+      {children}
     </div>
   )
 }

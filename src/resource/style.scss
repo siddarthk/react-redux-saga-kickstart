@@ -1,0 +1,54 @@
+$bodyBackground:#E8EBF0;
+$headerBackground: #ffffff;
+$navbarBackground: #f5f5f5;
+
+body {
+  margin: 0px !important;
+}
+
+.app-container {
+  background-color: $bodyBackground;
+  margin: 0 auto !important;
+}
+
+.header {
+  background-color: $headerBackground;
+  height: 3rem;
+  -webkit-box-shadow: 0px 0px 9px 3px rgba(41,41,41,.25);
+  -moz-box-shadow: 0px 0px 9px 3px rgba(41,41,41,.25);
+  box-shadow: 0px 0px 9px 3px rgba(41,41,41,.25);
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+}
+
+.navbar {
+  background-color: $navbarBackground;
+  height: 3rem;
+  box-shadow: 1px 2px 1px 0 #ccc;
+  display: flex;
+  align-items: center;
+}
+
+.breadcrumbs {
+  height: 2.5rem;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  min-height: 85vh;
+  background-color: #E8EBF0;
+}
+
+.footer {
+  height: 2.5rem;
+  background-color: #cccccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -2.5rem;
+}

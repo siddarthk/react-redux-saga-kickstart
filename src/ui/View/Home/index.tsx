@@ -1,4 +1,5 @@
 import React from 'react'
+import { PageWrapper } from '../../Layout';
 
 interface Props {
   
@@ -8,9 +9,9 @@ const Home = (props: Props) => {
   const { } = props;
   
   return (
-    <div>
-      Home Page
-    </div>
+    <PageWrapper>
+      Home Pagesss
+    </PageWrapper>
   )
 }
 

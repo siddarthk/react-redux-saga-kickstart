@@ -27,6 +27,10 @@ export default createReducer(initialState, handle => [
   })
 ])
 
-const currentState = ({ session = initialState }: IAppState): ILoginState => session
+const session = ({ session = initialState }: IAppState): ILoginState => session
+const isAuthenticated = createSelector(session, ({ isAuthenticated }) => isAuthenticated )
 
-export const isAuthenticated = createSelector(currentState, ({ isAuthenticated }) => isAuthenticated )
+export const selector  = {
+  isAuthenticated,
+  session
+}
