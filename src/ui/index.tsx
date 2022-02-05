@@ -1,3 +1,6 @@
 export { NavBar, PrivateRoute, BreadCrumbs } from './Navigation'
-export { Main, Footer, Header, PageWrapper } from './Layout'
+export { Main, Footer, Header, Page, GeneralLayout } from './Layout'
 export { default as Home } from './View/Home'
+export { default as Product } from './View/Product'
+export { default as Blog } from './View/Blog'
+export { default as Profile } from './View/Profile'

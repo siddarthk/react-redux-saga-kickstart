@@ -4,13 +4,13 @@ interface Props {
   children: any;
 }
 
-const PageWrapper = (props: Props) => {
+const Page = (props: Props) => {
   const { children } = props;
   return (
-    <div className='content'>
+    <div className='container'>
       {children}
     </div>
   )
 }
 
-export default PageWrapper
+export default Page

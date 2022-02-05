@@ -6,15 +6,15 @@ interface Props {
   
 }
 
-const Home = (props: Props) => {
+const Profile = (props: Props) => {
   const { } = props;
   
   return (
     <PageMenu>
-      <div>Home</div>
+      <div>Profile</div>
       <VMenu items={[]} />
     </PageMenu>
   )
 }
 
-export default Home
+export default Profile

@@ -6,9 +6,11 @@ interface Props {
 
 const NavBar = (props: Props) => {
   return (
-    <div className='navbar'>
-      NavBar
-    </div>
+    <nav className='navbar'>
+       <div className="container-fluid">
+        <a className="navbar-brand" href="#">Navbar</a>
+       </div>
+    </nav>
   )
 }
 

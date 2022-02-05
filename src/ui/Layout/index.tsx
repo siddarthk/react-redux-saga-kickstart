@@ -1,4 +1,6 @@
 export { default as Main } from './Main'
-export { default as PageWrapper } from './PageWrapper'
+export { default as Page } from './Page'
+export { default as PageMenu } from './PageMenu'
 export { default as Header } from './Header'
 export { default as Footer } from './Footer'
+export { default as GeneralLayout } from './GeneralLayout'

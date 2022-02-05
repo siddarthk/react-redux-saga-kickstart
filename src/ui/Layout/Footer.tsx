@@ -1,14 +1,16 @@
 import React from 'react'
 
-interface Props {
-  
+interface FooterProps {
+
 }
 
-const Footer = (props: Props) => {
+const Footer = (props: FooterProps) => {
   return (
-    <div className="footer">
-      Footer
-    </div>
+    <footer>
+      <div className="section">
+        Footer
+      </div>
+    </footer>
   )
 }
 
